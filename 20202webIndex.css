@@ -15,8 +15,6 @@ header{
 }
 
 #Title-Name:hover {
-  transform: scaleX( 1.5 );
-  transition-duration: 1s;
   display: inline-block;
   margin: 0;
 }
