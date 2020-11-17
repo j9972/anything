@@ -19,7 +19,7 @@ header{
   margin: 0;
 }
 
- main {
+main {
     width: 50%;
     margin: 50px auto;
     text-align: center;
@@ -27,23 +27,93 @@ header{
     top: 40px;
 }
 
-#drop {
+#drop{
     background-color: green;
 }
 
-#drop a {
+/* #drop a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   padding: 15px;
   display:inline-block;
+} */
+
+#Games-First a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+  display:inline-block;
+}
+
+#Games-Second a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+  display:inline-block;
+}
+
+#Games-Third a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+  display:inline-block;
+}
+
+#Games-Fourth a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+  display:inline-block;
+}
+
+#Games-Fifth a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+  display:inline-block;
+}
+
+#Games-First {
+  background-color: green;
+  position: relative;
+  top: 40px;
+}
+
+#Games-Second {
+  background-color: green;
+  position: relative;
+  top: 55px;
+}
+
+#Games-Third {
+  background-color: green;
+  position: relative;
+  top: 70px;
+}
+
+#Games-Fourth {
+  background-color: green;
+  position: relative;
+  top: 85px;
+}
+
+#Games-Fifth {
+  background-color: green;
+  position: relative;
+  top: 100px;
 }
 
 #GameList {
     font-size: 30px;
     text-decoration: none;
     color: white;
-    margin: 10px;
+    margin: 15px;
     display: inline-block;
 }
 
@@ -65,8 +135,4 @@ ul li ul {
 ul li ul li { 
   background: #555; 
   display: block; 
-}
-
-.list_hover:hover {
-    letter-spacing: 2px;
 }
