@@ -10,13 +10,15 @@ header{
 }
 
 #Title-Name {
-    font-size: 50px;
-    font-weight: bold;
+  transition-duration: 2s;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 #Title-Name:hover {
-  display: inline-block;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 main {
@@ -30,14 +32,6 @@ main {
 #drop{
     background-color: green;
 }
-
-/* #drop a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  padding: 15px;
-  display:inline-block;
-} */
 
 #Games-First a {
   text-decoration: none;
@@ -112,7 +106,7 @@ main {
 #GameList {
     font-size: 30px;
     text-decoration: none;
-    color: white;
+    color: #FFC681;
     margin: 15px;
     display: inline-block;
 }
